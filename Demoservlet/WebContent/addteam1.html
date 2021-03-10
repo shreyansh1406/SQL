@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<style>
+table {
+            border-spacing: 0 25px;
+        }
+ </style>
+<title>Team registration</title>
+</head>
+<body>
+<form action="./InsertTeamServlet" method="post">
+
+     <table style="margin-left: auto; margin-right:auto ;">
+                <tr>
+                    <td>TeamId<span style="color: red;">*</span> </td>
+                    <td><input type="text" name="tid" placeholder="Enter team id" /></td>
+                </tr>
+                
+                <tr>
+                    <td>Teamname<span style="color: red;">*</span> </td>
+                    <td><input type="text" name="tname" style=" width: 78%;" /></td>
+                </tr>
+                
+                <tr>
+                    <td>Ownername<span style="color: red;">*</span> </td>
+                    <td><input type="text" name="owname" placeholder="Enter ownername" /></td>
+                </tr>
+                <tr>
+                    <td>Coachname<span style="color: red;">*</span> </td>
+                    <td><input type="text" name="cname" placeholder="enter coach name" /></td>
+                </tr>
+                  
+       </table>
+        <input type="submit" style="margin-top: 25px; text-align:center; margin-left: 560px; ;">
+        <input type="reset" style="margin-top: 25px; text-align:center;">
+
+</form>
+
+</body>
+</html>
